@@ -40,7 +40,7 @@ public class Gob implements Sprite.Owner, Skeleton.ModOwner, Rendered {
     public final Glob glob;
     Map<Class<? extends GAttrib>, GAttrib> attr = new HashMap<Class<? extends GAttrib>, GAttrib>();
     public Collection<Overlay> ols = new LinkedList<Overlay>();
-    private static final Text.Foundry gobhpf = new Text.Foundry(Text.sansb, 14).aa(true);
+    private static final Text.Foundry gobhpf = new Text.Foundry(Text.sans, 14).aa(true);
     private static final Tex[] gobhp = new Tex[] {
             Text.renderstroked("25%", Color.WHITE, Color.BLACK, gobhpf).tex(),
             Text.renderstroked("50%", Color.WHITE, Color.BLACK, gobhpf).tex(),
